@@ -1,0 +1,805 @@
+<html dir="ltr" lang="en-US"><head><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <base href="/">
+
+  <script id="embedly-platform" async="" src="https://cdn.embedly.com/widgets/platform.js"></script><script async="" src="//fast.wistia.com/assets/external/E-v1.js"></script><script async="" src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script><script async="" src="https://utest.mautic.net/mtc.js"></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51204031-2', 'auto');
+  ga('set', 'anonymizeIp', true);
+
+  </script>
+
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq||location.host.match('(integration|stage|localhost)'))return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','//connect.facebook.net/en_US/fbevents.js');
+        if(typeof fbq !== 'undefined'){fbq('init', 2056077547826832);}
+        </script>
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2056077547826832&ev=PageView&noscript=1">
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+  <!-- Emoji provided by EmojiOne: http://emojione.com/ -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128">
+  <meta name="application-name" content="&nbsp;">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png">
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+  <meta name="type" property="og:type" content="website">
+  <meta name="keywords" content="software,testing">
+  <meta name="og:title" property="og:title" content="uTest - The Professional Network for Testers">
+  <meta name="og:description" property="og:description" content="Elevate your testing skills – READ articles, RATE tools, LEARN new skills, FIND paid projects and CHAT about tech, career &amp; trends with your peers.">
+  <link rel="stylesheet" href="https://use.typekit.net/emc4mjh.css">
+<link rel="stylesheet" href="styles.5e181881f4d4489ed1af.css"><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/943241068/?random=1663335357461&amp;cv=9&amp;fst=1663335357461&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=4&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=2&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.utest.com%2F&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"><style id="inert-style">
+[inert] {
+  pointer-events: none;
+  cursor: default;
+}
+
+[inert], [inert] * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+</style><!---->
+              <title meta-value="" ng-bind="meta.title ? (meta.title | emojiUnicode) : meta.title">uTest - The Professional Network for Testers</title></head>
+
+<body route-classes="" player-sugar="" ng-style="!showNtuxNavigation ? {'overflow-y' : 'scroll'} : {'overflow-y' : 'hidden'}" style="overflow-y: hidden;" class="nav-menu-open">
+
+  <!----><ui-view class="" style="">
+<!-- this should be visible all the time with the flag off, but only visible to signed in users with the flag on  -->
+<!----><nav-sidebar ng-if="showNtuxNavigation">
+<div>
+  <nav class="nav-sidebar">
+    <div id="skiptocontent"><a href="#mainContent" class="skip" ng-keydown="$ctrl.handleSkipKeydown($event)">skip to main content</a></div>
+    <nav-sidebar-toggle action="close">
+<button class="nav-sidebar-toggle" ng-click="$ctrl.toggleNavMenu($ctrl.action)" aria-label="close sidebar navigation" aria-expanded="true">
+  <!---->
+  <!----><div ng-if="$ctrl.action == 'close'">
+    <i class="material-icons">close</i>
+  </div><!---->
+</button>
+</nav-sidebar-toggle>
+    <div class="nav-sidebar-logo-container">
+      <div class="nav-sidebar-logo-image">
+        <a ui-sref="home" href="/"><img src="assets/images/uTestLogoNav.svg" alt="uTest home page"></a>
+      </div>
+    </div>
+
+    <div class="nav-sidebar-scrollable">
+      <nav-sidebar-user-info user="$ctrl.currentUser" ng-show="$ctrl.currentUser" class="">
+<div class="nav-sidebar-user-card">
+  <div ntux-avatar-badges="'me'" class="nav-sidebar-user-card__image" style="background-image: url(&quot;https://prod-avatar-svc.cloud.applause.com/1059368/image&quot;);"><span class="avatar-badges-wrapper"></span></div>
+  <div class="nav-sidebar-user-card-info">
+    <div class="nav-sidebar-user-card-info__name">
+      Daniel García
+    </div>
+    <div class="nav-sidebar-user-card-info__details">
+      Tester ID: 1059368
+    </div>
+    <div class="nav-sidebar-user-card-rating nav-sidebar-user-card-rating--unrated">
+      <div class="nav-sidebar-user-card-rating__text nav-sidebar-user-card-rating__text--unrated">
+        unrated
+      </div>
+    </div>
+  </div>
+  <nav-sidebar-dropdown-toggle class="nav-sidebar-user-card-dropdown__arrow" on-click="$ctrl.toggleDropdown()" expanded="$ctrl.isExpanded" name="User">
+<button ng-transclude="" ng-click="$ctrl.onClick()" aria-label="Expand to see User menu" aria-expanded="false">
+    <i class="material-icons" aria-hidden="true">expand_more</i>
+  </button>
+</nav-sidebar-dropdown-toggle>
+</div>
+<ul role="menu" ng-show="$ctrl.isExpanded" ng-class="$ctrl.isExpanded &amp;&amp; 'nav-sidebar-dropdown--expanded'" class="ng-hide">
+  <nav-sidebar-dropdown-item text="Tester Profile" url="https://platform.utest.com/account/my-profile/">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!----><a role="menuitem" ng-if="$ctrl.url" href="https://platform.utest.com/account/my-profile/" target="_self" class="nav-sidebar-dropdown-child__link">Tester Profile</a><!---->
+  <!---->
+</div>
+</nav-sidebar-dropdown-item>
+  <nav-sidebar-dropdown-item text="Community Profile" route="profile.about({profileId: $ctrl.currentUser.slug})" highlight="$ctrl.userProfileSelected($ctrl.currentUser.slug)" expand-parent="$ctrl.expand()" collapse-parent="$ctrl.collapse()">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!---->
+  <!----><a role="menuitem" ng-if="$ctrl.route" ui-sref="profile.about({profileId: $ctrl.currentUser.slug})" ui-sref-opts="{reload: false}" class="nav-sidebar-dropdown-child__link" ng-class="{'nav-sidebar-dropdown-child__link--selected' : $ctrl.isSelected}" href="/profile/p1059368/about">Community Profile</a><!---->
+</div>
+</nav-sidebar-dropdown-item>
+  <nav-sidebar-dropdown-item text="Payments" url="https://platform.utest.com/account/payments">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!----><a role="menuitem" ng-if="$ctrl.url" href="https://platform.utest.com/account/payments" target="_self" class="nav-sidebar-dropdown-child__link">Payments</a><!---->
+  <!---->
+</div>
+</nav-sidebar-dropdown-item>
+  <nav-sidebar-dropdown-item text="Advanced Settings" url="https://platform.utest.com/account/advanced">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!----><a role="menuitem" ng-if="$ctrl.url" href="https://platform.utest.com/account/advanced" target="_self" class="nav-sidebar-dropdown-child__link">Advanced Settings</a><!---->
+  <!---->
+</div>
+</nav-sidebar-dropdown-item>
+  <nav-sidebar-dropdown-item text="Sign Out" url="/logout">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!----><a role="menuitem" ng-if="$ctrl.url" href="/logout" target="_self" class="nav-sidebar-dropdown-child__link">Sign Out</a><!---->
+  <!---->
+</div>
+</nav-sidebar-dropdown-item>
+<ul>
+</ul></ul></nav-sidebar-user-info>
+      <nav-sidebar-item icon="home" name="Home" route="home" highlight="root,home" ng-show="$ctrl.currentUser" class="">
+<div class="nav-sidebar-item nav-sidebar-item--selected" ng-class="{'nav-sidebar-item--selected' : $ctrl.isSelected}">
+  <a ui-sref="home" class="nav-sidebar-item__link nav-sidebar-item__link--selected" ng-class="{'nav-sidebar-item__link--selected' : $ctrl.isSelected}" href="/">
+    <div aria-hidden="true" class="nav-sidebar-item__icon">
+      <i class="material-icons">home</i>
+    </div>
+    <div class="nav-sidebar-item__text nav-sidebar-item__text--selected" ng-class="$ctrl.isSelected &amp;&amp; 'nav-sidebar-item__text--selected'">
+      Home
+    </div>
+  </a>
+</div>
+</nav-sidebar-item>
+      <nav-sidebar-item icon="school" name="Academy" route="academy-home" highlight="academy,tracks,course,courses,academy-home,track-course,quiz,report-card,singlecourse" ng-show="$ctrl.currentUser" class="">
+<div class="nav-sidebar-item" ng-class="{'nav-sidebar-item--selected' : $ctrl.isSelected}">
+  <a ui-sref="academy-home" class="nav-sidebar-item__link" ng-class="{'nav-sidebar-item__link--selected' : $ctrl.isSelected}" href="/academy">
+    <div aria-hidden="true" class="nav-sidebar-item__icon">
+      <i class="material-icons">school</i>
+    </div>
+    <div class="nav-sidebar-item__text" ng-class="$ctrl.isSelected &amp;&amp; 'nav-sidebar-item__text--selected'">
+      Academy
+    </div>
+  </a>
+</div>
+</nav-sidebar-item>
+      <nav-sidebar-projects ng-show="$ctrl.currentUser" class="">
+<nav-sidebar-dropdown icon="trip_origin" name="Projects" highlight="project,singleproject,projectlist" url="https://platform.utest.com">
+<div class="nav-sidebar-dropdown" ng-class="{'nav-sidebar-item--selected' : $ctrl.isSelected}">
+  <div class="nav-sidebar-item">
+    <a href="https://platform.utest.com" class="nav-sidebar-item__link">
+      <div aria-hidden="true" class="nav-sidebar-item__icon" ng-class="{'nav-sidebar-item__icon--selected' : $ctrl.isSelected}">
+        <i class="material-icons">trip_origin</i>
+      </div>
+      <div class="nav-sidebar-item__text" ng-class="{'nav-sidebar-item__text--selected' : $ctrl.isSelected}">
+        Projects
+      </div>
+    </a>
+    <nav-sidebar-dropdown-toggle class="nav-sidebar-dropdown__arrow" on-click="$ctrl.toggleDropdown()" expanded="$ctrl.isExpanded" name="Projects">
+<button ng-transclude="" ng-click="$ctrl.onClick()" aria-label="Expand to see Projects menu" aria-expanded="false">
+      <i class="material-icons" aria-hidden="true">expand_more</i>
+    </button>
+</nav-sidebar-dropdown-toggle>
+  </div>
+</div>
+<div ng-show="$ctrl.isExpanded" ng-class="$ctrl.isExpanded &amp;&amp; 'nav-sidebar-dropdown--expanded'" ng-transclude="" class="ng-hide">
+  <nav-sidebar-dropdown-item text="Test Cycles" url="https://platform.utest.com/testcycles">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!----><a role="menuitem" ng-if="$ctrl.url" href="https://platform.utest.com/testcycles" target="_self" class="nav-sidebar-dropdown-child__link">Test Cycles</a><!---->
+  <!---->
+</div>
+</nav-sidebar-dropdown-item>
+  <nav-sidebar-dropdown-item text="Issues" url="https://platform.utest.com/issues">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!----><a role="menuitem" ng-if="$ctrl.url" href="https://platform.utest.com/issues" target="_self" class="nav-sidebar-dropdown-child__link">Issues</a><!---->
+  <!---->
+</div>
+</nav-sidebar-dropdown-item>
+  <nav-sidebar-dropdown-item text="Test Cases" url="https://platform.utest.com/testcases">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!----><a role="menuitem" ng-if="$ctrl.url" href="https://platform.utest.com/testcases" target="_self" class="nav-sidebar-dropdown-child__link">Test Cases</a><!---->
+  <!---->
+</div>
+</nav-sidebar-dropdown-item>
+  <nav-sidebar-dropdown-item text="Projects Board" highlight="$ctrl.projectBoardSelected()" route="project" reload="true">
+<div ng-class="{'nav-sidebar-dropdown-child--selected' : $ctrl.isSelected}" class="nav-sidebar-dropdown-child">
+  <!---->
+  <!----><a role="menuitem" ng-if="$ctrl.route" ui-sref="project" ui-sref-opts="{reload: true}" class="nav-sidebar-dropdown-child__link" ng-class="{'nav-sidebar-dropdown-child__link--selected' : $ctrl.isSelected}" href="/projects">Projects Board</a><!---->
+</div>
+</nav-sidebar-dropdown-item>
+</div>
+</nav-sidebar-dropdown>
+</nav-sidebar-projects>
+      <nav-sidebar-item icon="people" name="Community" route="community" highlight="community,article,singlearticle,discussion,singlediscussionpage,discussioncategory,singlediscussion,referralCampaignsIndex,referralCampaignsShow,singlestatus" ng-show="$ctrl.currentUser" class="">
+<div class="nav-sidebar-item" ng-class="{'nav-sidebar-item--selected' : $ctrl.isSelected}">
+  <a ui-sref="community" class="nav-sidebar-item__link" ng-class="{'nav-sidebar-item__link--selected' : $ctrl.isSelected}" href="/community">
+    <div aria-hidden="true" class="nav-sidebar-item__icon">
+      <i class="material-icons">people</i>
+    </div>
+    <div class="nav-sidebar-item__text" ng-class="$ctrl.isSelected &amp;&amp; 'nav-sidebar-item__text--selected'">
+      Community
+    </div>
+  </a>
+</div>
+</nav-sidebar-item>
+
+      <nav-sidebar-item icon="trip_origin" name="Projects Board" route="project" highlight="project,singleproject,projectlist" ng-show="!$ctrl.currentUser" class="ng-hide">
+<div class="nav-sidebar-item" ng-class="{'nav-sidebar-item--selected' : $ctrl.isSelected}">
+  <a ui-sref="project" class="nav-sidebar-item__link" ng-class="{'nav-sidebar-item__link--selected' : $ctrl.isSelected}" href="/projects">
+    <div aria-hidden="true" class="nav-sidebar-item__icon">
+      <i class="material-icons">trip_origin</i>
+    </div>
+    <div class="nav-sidebar-item__text" ng-class="$ctrl.isSelected &amp;&amp; 'nav-sidebar-item__text--selected'">
+      Projects Board
+    </div>
+  </a>
+</div>
+</nav-sidebar-item>
+      <nav-sidebar-item icon="description" name="Articles" route="article" highlight="article,singlearticle" ng-show="!$ctrl.currentUser" class="ng-hide">
+<div class="nav-sidebar-item" ng-class="{'nav-sidebar-item--selected' : $ctrl.isSelected}">
+  <a ui-sref="article" class="nav-sidebar-item__link" ng-class="{'nav-sidebar-item__link--selected' : $ctrl.isSelected}" href="/articles">
+    <div aria-hidden="true" class="nav-sidebar-item__icon">
+      <i class="material-icons">description</i>
+    </div>
+    <div class="nav-sidebar-item__text" ng-class="$ctrl.isSelected &amp;&amp; 'nav-sidebar-item__text--selected'">
+      Articles
+    </div>
+  </a>
+</div>
+</nav-sidebar-item>
+      <nav-sidebar-item icon="forum" name="Forums" route="discussion" highlight="discussion,singlediscussionpage,discussioncategory,singlediscussion" ng-show="!$ctrl.currentUser" class="ng-hide">
+<div class="nav-sidebar-item" ng-class="{'nav-sidebar-item--selected' : $ctrl.isSelected}">
+  <a ui-sref="discussion" class="nav-sidebar-item__link" ng-class="{'nav-sidebar-item__link--selected' : $ctrl.isSelected}" href="/forums">
+    <div aria-hidden="true" class="nav-sidebar-item__icon">
+      <i class="material-icons">forum</i>
+    </div>
+    <div class="nav-sidebar-item__text" ng-class="$ctrl.isSelected &amp;&amp; 'nav-sidebar-item__text--selected'">
+      Forums
+    </div>
+  </a>
+</div>
+</nav-sidebar-item>
+
+      <!---->
+      <nav-sidebar-footer>
+<div class="nav-sidebar-footer" role="contentinfo">
+  <!---->
+  <!---->
+  <!---->
+  <a class="nav-sidebar-footer__link" href="/utest-guidelines">uTest Guidelines</a>
+  <a class="nav-sidebar-footer__link" href="/terms-and-conditions">Terms &amp; Conditions</a>
+  <a class="nav-sidebar-footer__link" href="/privacy-policy">Privacy Policy</a>
+  <!---->
+  <div class="nav-sidebar-footer__copyright">
+    © 2022 Applause App Quality, Inc.
+  </div>
+</div>
+</nav-sidebar-footer>
+    </div>
+  </nav>
+</div>
+</nav-sidebar><!---->
+<!----><alert-service ng-if="showNtuxNavigation">
+<div class="alert-service">
+  <!---->
+</div>
+</alert-service><!---->
+<!----><div ng-if="showNtuxNavigation" loading-indicator="" class="ntux-wrapper-all" id="wrapperAll">
+  <nav-header>
+<div class="navbar navbar-default navbar-fixed-top navbar-static-top ntux-nav-header" id="nav-bar-container">
+  <nav-sidebar-toggle action="open">
+<button class="nav-sidebar-toggle" ng-click="$ctrl.toggleNavMenu($ctrl.action)" aria-label="open sidebar navigation" aria-expanded="false">
+  <!----><div ng-if="$ctrl.action == 'open'">
+    <i class="material-icons">menu</i>
+  </div><!---->
+  <!---->
+</button>
+</nav-sidebar-toggle>
+  <cookie-alert>
+<div>
+  <!---->
+  <!---->
+</div>
+</cookie-alert>
+  <alert-message current-user="$ctrl.currentUser">
+<div class="am-wrapper">
+  <!---->
+</div>
+</alert-message>
+  <div class="container-fluid ntux-nav-header-container">
+    <div ng-show="!$ctrl.loadingUser" class="">
+      <!----><div class="clearfix" ng-if="$ctrl.currentUser">
+        <nav-header-search-field query="$ctrl.query" on-submit="$ctrl.search($event)">
+<form class="ntux-nav-header-search ng-pristine ng-valid" ng-submit="$ctrl.submit()">
+  <span class="ntux-nav-header-search__icon" type="submit"><i class="material-icons">search</i></span>
+  <input class="ntux-nav-header-search__input ng-pristine ng-untouched ng-valid ng-empty" type="text" ng-model="$ctrl.query" placeholder="Search" name="search" id="searchInput">
+  <label class="sr-only" for="searchInput">Search</label>
+</form>
+</nav-header-search-field>
+        <div class="ntux-nav-header-buttons">
+          <nav-header-chat url="$ctrl.chatUrl">
+<div class="ntux-nav-header-buttons__item ntux-nav-header-chat">
+  <a class="ntux-nav-header-buttons__link ntux-nav-header-chat__link" target="_blank" ng-click="$ctrl.clearUnreadChatNotifications()" aria-label="Chat" ng-href="https://chat.utest.com/" href="https://chat.utest.com/">
+    <i aria-hidden="true" class="material-icons">chat_bubble</i>
+  </a>
+  <div class="ntux-nav-header-chat__dot ng-hide" ng-class="{'ntux-nav-header-chat__dot--with-number': $ctrl.unreadMessageCount > 0}" ng-show="$ctrl.hasUnreadMessages"></div>
+  </div>
+
+</nav-header-chat>
+          <nav-header-notifications current-user="$ctrl.currentUser">
+<div class="ntux-nav-header-buttons__item ntux-nav-header-notifications">
+  <a class="ntux-nav-header-buttons__link" ui-sref="activity" href="/activity" ng-click="$ctrl.clearUnreadNotifications()" aria-label="Notifications, new notifications">
+    <i aria-hidden="true" class="material-icons">notifications</i>
+  </a>
+  <div class="ntux-nav-header-notifications__dot ntux-nav-header-notifications__dot--with-number" ng-show="$ctrl.unread_count() > 0">3</div>
+</div>
+</nav-header-notifications>
+          <nav-header-help>
+<div class="ntux-nav-header-buttons__item ntux-nav-header-help">
+  <a class="ntux-nav-header-buttons__link" href="https://support.utest.com/csp" target="_blank" aria-label="Help">
+    <i aria-hidden="true" class="material-icons">help</i>
+  </a>
+</div>
+</nav-header-help>
+        </div>
+      </div><!---->
+      <!---->
+    </div>
+  </div>
+</div>
+</nav-header>
+
+  <div auto-padding="nav-bar-container" auto-padding-event="adjust-nav-padding" id="mainUiView" class="main-ui-view" scrolly="" scroll-target="#navBar" autoscroll="true" style="padding-top: 67.5px;">
+    <!----><div ui-view="" id="main-content-container" ng-class="{'ntux-background-color' : ($state.includes('home')
+    || $state.includes('activity')
+    || $state.includes('community')
+    || $state.includes('courses')
+    || $state.includes('academy')
+    || $state.includes('tracks')
+    || $state.includes('singlecourse')
+    || $state.includes('referralCampaignsIndex'))}" class="ntux-background-color"><home user="::$resolve.user">
+<div id="mainContent">
+  <!---->
+  <h1 class="sr-only">uTest Homepage</h1>
+  <!----><dashboard ng-if="$ctrl.user">
+<main class="dashboard">
+  <div id="dashboardContainer" class="block container-fluid">
+    <div class="row">
+      <div class="col-md-8 col-sm-12">
+        <!---->
+        <dashboard-card-activity>
+<div class="dashboard-card" style="min-height: 400px;">
+  <h2 class="dashboard-card__heading">
+    My Activity
+  </h2>
+  <div class="dashboard-card-tabset">
+    <div>
+  <ul class="nav nav-tabs" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="" role="tablist">
+      <li ng-class="{active: active, disabled: disabled}" class="dashboard-card-tabset-tab dashboard-card-tabset-tab--all active" heading="All" type="All" select="$ctrl.setSelectedTab('All')" role="presentation">
+  <a href="" ng-click="select()" tab-heading-transclude="" aria-selected="true" role="tab">All</a>
+</li>
+      <li ng-class="{active: active, disabled: disabled}" class="dashboard-card-tabset-tab dashboard-card-tabset-tab--projects" heading="Projects" type="Projects" select="$ctrl.setSelectedTab('Projects')" role="presentation">
+  <a href="" ng-click="select()" tab-heading-transclude="" aria-selected="false" role="tab"><tab-heading>Projects <span class="dashboard-card-tab-indicator">0</span></tab-heading></a>
+</li>
+      <li ng-class="{active: active, disabled: disabled}" class="dashboard-card-tabset-tab dashboard-card-tabset-tab--invitations" heading="Invitations" select="$ctrl.setSelectedTab('Invitations')" type="Invitations" role="presentation">
+  <a href="" ng-click="select()" tab-heading-transclude="" aria-selected="false" role="tab"><tab-heading>Invitations <span class="dashboard-card-tab-indicator">2</span></tab-heading></a>
+</li>
+      <li ng-class="{active: active, disabled: disabled}" class="dashboard-card-tabset-tab dashboard-card-tabset-tab--community" heading="Community" type="Community" select="$ctrl.setSelectedTab('Community')" role="presentation">
+  <a href="" ng-click="select()" tab-heading-transclude="" aria-selected="false" role="tab">Community</a>
+</li>
+    </ul>
+  <div class="tab-content">
+    <!----><div class="tab-pane active" ng-repeat="tab in tabs" ng-class="{active: tab.active}" tab-content-transclude="tab">
+    
+        <dashboard-all-tab activities="$ctrl.activities" max-activities-count="$ctrl.maxActivitiesCount">
+<div>
+  <!----><div class="dashboard-card-list" ng-if="$ctrl.activities.length > 0" style="">
+    <!----><!----><activity-list-item current-user="$ctrl.currentUser" activity="activity" ng-repeat="activity in $ctrl.activities" ng-if="activity.type !== 'hidden'">
+<div class="activity-list-item">
+
+  <!---->
+  <!----><div ng-if="$ctrl.iconType == 'glyph'" class="activity-list-item__icon activity-list-item__icon--glyph" ng-class="$ctrl.iconModifier"><i class="material-icons">mail</i></div><!---->
+
+  <div class="activity-list-item__description" ng-switch="$ctrl.activity.type">
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!----><div ng-switch-when="requirement_survey_invite_activity">
+      <b>Special Requirement Survey</b>
+      - <a ng-href="https://platform.utest.com/requirement-survey/26098" href="https://platform.utest.com/requirement-survey/26098">In The Market For A New Computer? Get Paid To Share Your Opinion!</a>
+    </div><!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+  </div>
+
+  <div class="activity-list-item__time">3 days ago</div>
+</div>
+</activity-list-item><!----><!----><!----><activity-list-item current-user="$ctrl.currentUser" activity="activity" ng-repeat="activity in $ctrl.activities" ng-if="activity.type !== 'hidden'">
+<div class="activity-list-item">
+
+  <!---->
+  <!----><div ng-if="$ctrl.iconType == 'glyph'" class="activity-list-item__icon activity-list-item__icon--glyph" ng-class="$ctrl.iconModifier"><i class="material-icons">mail</i></div><!---->
+
+  <div class="activity-list-item__description" ng-switch="$ctrl.activity.type">
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!----><div ng-switch-when="requirement_survey_invite_activity">
+      <b>Special Requirement Survey</b>
+      - <a ng-href="https://platform.utest.com/requirement-survey/25985" href="https://platform.utest.com/requirement-survey/25985">Latin America - Streaming app recruitment</a>
+    </div><!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+  </div>
+
+  <div class="activity-list-item__time">15 days ago</div>
+</div>
+</activity-list-item><!----><!----><!----><activity-list-item current-user="$ctrl.currentUser" activity="activity" ng-repeat="activity in $ctrl.activities" ng-if="activity.type !== 'hidden'">
+<div class="activity-list-item">
+
+  <!---->
+  <!----><div ng-if="$ctrl.iconType == 'glyph'" class="activity-list-item__icon activity-list-item__icon--glyph" ng-class="$ctrl.iconModifier"><i class="material-icons">mail</i></div><!---->
+
+  <div class="activity-list-item__description" ng-switch="$ctrl.activity.type">
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!----><div ng-switch-when="requirement_survey_invite_activity">
+      <b>Special Requirement Survey</b>
+      - <a ng-href="https://platform.utest.com/requirement-survey/24938" href="https://platform.utest.com/requirement-survey/24938">Banking - Accounts</a>
+    </div><!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+  </div>
+
+  <div class="activity-list-item__time">a month ago</div>
+</div>
+</activity-list-item><!----><!---->
+  </div><!---->
+
+  <!---->
+
+  <!----><a class="dashboard-card-footer" ui-sref="activity" ng-if="$ctrl.activities.length > 0" href="/activity" style="">
+    View all activity
+  </a><!---->
+</div>
+</dashboard-all-tab>
+      </div><!----><div class="tab-pane" ng-repeat="tab in tabs" ng-class="{active: tab.active}" tab-content-transclude="tab">
+    
+        
+        <dashboard-activity-projects-tab projects="$ctrl.projects" projects-count="$ctrl.projectsCount">
+<div class="dashboard-card-list">
+  <!---->
+  <!---->
+  <!----><dashboard-activity-project-empty-list-notification have-no="active or pending projects" ng-if="$ctrl.projectsCount == 0" class="" style="">
+<div class="dashboard-activity-no-list-items">
+  <div class="dashboard-activity-no-list-items__primary">
+    You don't have any active or pending projects.
+  </div>
+
+  <div class="dashboard-activity-no-list-items__secondary">
+    Browse the Projects Board to find new testing opportunities.
+  </div>
+
+  <div class="dashboard-activity-no-list-items-button-container">
+    <a ui-sref="project" class="dashboard-link-button" href="/projects">
+      Projects Board
+    </a>
+  </div>
+</div>
+</dashboard-activity-project-empty-list-notification><!---->
+</div>
+</dashboard-activity-projects-tab>
+      </div><!----><div class="tab-pane" ng-repeat="tab in tabs" ng-class="{active: tab.active}" tab-content-transclude="tab">
+    
+        
+        <dashboard-activity-invitations-tab invitations="$ctrl.invitations" invitations-count="$ctrl.invitationsCount">
+<div class="dashboard-card-list">
+  <!----><dashboard-activity-project-list-item project="project" item-type="invitation" tester-app-url="https://platform.utest.com" ng-repeat="project in $ctrl.invitations" class="" style="">
+<div class="dashboard-card-list-item dashboard-card-list-item--activity">
+  <div class="dashboard-activity-project-status">
+    <!----><div ng-if="$ctrl.itemType == 'invitation'" class="dashboard-activity-project-status__icon dashboard-activity-project-status__icon--invitation">
+      <i class="material-icons">email</i>
+    </div><!---->
+
+    <!---->
+    <!---->
+  </div>
+
+  <!---->
+
+  <!---->
+
+  <!----><div ng-if="$ctrl.project.action == 'requirement_survey'" class="dashboard-activity-project-details">
+    <div class="dashboard-card-activity-my-projects-title-block">
+      <div class="dashboard-activity-project-emphasized-text">Requirement Survey Requested</div>
+      <a href="https://platform.utest.com/requirement-survey/24938" class="dashboard-activity-project-link">
+        Banking - Accounts
+      </a>
+    </div>
+  </div><!---->
+
+  <!---->
+
+  <!---->
+
+  <!----><div ng-if="$ctrl.project.action == 'requirement_survey'" class="dashboard-activity-project-timing">
+    <div class="dashboard-activity-project-timing__dates">
+      <div class="dashboard-activity-project-timing__date">
+        <!----><span class="dashboard-activity-project-emphasized-text" ng-if="$ctrl.project.endDate">End:</span><!----> 10/4/22 - 4:00 PM
+      </div>
+    </div>
+  </div><!---->
+</div>
+</dashboard-activity-project-list-item><!----><dashboard-activity-project-list-item project="project" item-type="invitation" tester-app-url="https://platform.utest.com" ng-repeat="project in $ctrl.invitations" class="">
+<div class="dashboard-card-list-item dashboard-card-list-item--activity">
+  <div class="dashboard-activity-project-status">
+    <!----><div ng-if="$ctrl.itemType == 'invitation'" class="dashboard-activity-project-status__icon dashboard-activity-project-status__icon--invitation">
+      <i class="material-icons">email</i>
+    </div><!---->
+
+    <!---->
+    <!---->
+  </div>
+
+  <!---->
+
+  <!---->
+
+  <!----><div ng-if="$ctrl.project.action == 'requirement_survey'" class="dashboard-activity-project-details">
+    <div class="dashboard-card-activity-my-projects-title-block">
+      <div class="dashboard-activity-project-emphasized-text">Requirement Survey Requested</div>
+      <a href="https://platform.utest.com/requirement-survey/26098" class="dashboard-activity-project-link">
+        In The Market For A New Computer? Get Paid To Share Your Opinion!
+      </a>
+    </div>
+  </div><!---->
+
+  <!---->
+
+  <!---->
+
+  <!----><div ng-if="$ctrl.project.action == 'requirement_survey'" class="dashboard-activity-project-timing">
+    <div class="dashboard-activity-project-timing__dates">
+      <div class="dashboard-activity-project-timing__date">
+        <!----><span class="dashboard-activity-project-emphasized-text" ng-if="$ctrl.project.endDate">End:</span><!----> 10/30/22 - 11:00 PM
+      </div>
+    </div>
+  </div><!---->
+</div>
+</dashboard-activity-project-list-item><!---->
+  <!---->
+  <!---->
+</div>
+</dashboard-activity-invitations-tab>
+      </div><!----><div class="tab-pane" ng-repeat="tab in tabs" ng-class="{active: tab.active}" tab-content-transclude="tab">
+    
+        <dashboard-activity-community-tab community-activities="$ctrl.communityActivities">
+<!---->
+
+<!----><div class="dashboard-activity-no-list-items" ng-if="$ctrl.communityActivities.length === 0" ng-show="$ctrl.communityActivities" style="">
+  <div class="dashboard-activity-no-list-items__primary">
+    You don't have any community activity.
+  </div>
+
+  <div class="dashboard-activity-no-list-items__secondary">
+    Check out the community page to share content and meet other uTesters.
+  </div>
+
+  <a ui-sref="community" class="dashboard-link-button" href="/community">
+    Community Page
+  </a>
+</div><!---->
+
+<!---->
+</dashboard-activity-community-tab>
+      </div><!---->
+  </div>
+</div>
+  </div>
+</div>
+</dashboard-card-activity>
+      </div>
+
+      <!----><dashboard-card-profile-completion ng-if="$ctrl.showCompletionCard &amp;&amp; $ctrl.currentUser.is_tester">
+<div class="col-md-4 col-sm-6">
+  <div class="dashboard-card">
+    <h2 class="dashboard-card__heading">
+      Profile Completion
+    </h2>
+    <div class="dashboard-card-profile-completion-graph">
+      <svg class="dashboard-card-profile-completion-graph__progress" ng-attr-viewbox="0 0 {{$ctrl.svgSize}} {{$ctrl.svgSize}}" viewbox="0 0 120 120">
+        <circle class="dashboard-card-profile-completion-graph__progress-meter" ng-attr-cx="{{$ctrl.svgCenter}}" ng-attr-cy="{{$ctrl.svgCenter}}" ng-attr-r="{{$ctrl.meterRadius}}" ng-attr-stroke-width="{{$ctrl.meterWidth}}" ng-attr-stroke-dasharray="{{$ctrl.meterCircumference}}" stroke-linecap="round" ng-attr-transform="rotate(90 {{$ctrl.svgCenter}} {{$ctrl.svgCenter}})" cx="60" cy="60" r="56" stroke-width="8" stroke-dasharray="263.89378290154264" transform="rotate(90 60 60)"></circle>
+        <circle class="dashboard-card-profile-completion-graph__progress-value" ng-attr-cx="{{$ctrl.svgCenter}}" ng-attr-cy="{{$ctrl.svgCenter}}" ng-attr-r="{{$ctrl.meterRadius}}" ng-attr-stroke-width="{{$ctrl.meterWidth}}" ng-attr-stroke-dasharray="{{$ctrl.meterCircumference}}" ng-attr-stroke-dashoffset="{{$ctrl.dashOffset}}" stroke="#027CC2" stroke-linecap="round" ng-attr-transform="rotate(90 {{$ctrl.svgCenter}} {{$ctrl.svgCenter}})" cx="60" cy="60" r="56" stroke-width="8" stroke-dasharray="263.89378290154264" transform="rotate(90 60 60)" stroke-dashoffset="182.0867102020644"></circle>
+      </svg>
+      <div class="dashboard-card-profile-completion-graph__user_avatar" style="background-image: url(https://prod-avatar-svc.cloud.applause.com/1059368/image);"></div>
+      <div class="dashboard-card-profile-completion-graph__percentage-badge">31%</div>
+    </div>
+    <div class="dashboard-card-profile-completion-button">
+      <a class="dashboard-link-button" href="https://platform.utest.com/account/my-profile/">
+        Complete my profile
+      </a>
+    </div>
+  </div>
+</div>
+</dashboard-card-profile-completion><!---->
+      <dashboard-card-my-devices>
+<div class="col-md-4 col-sm-6">
+  <div class="dashboard-card">
+    <h2 class="dashboard-card__heading">
+      My Devices
+    </h2>
+    <!----><div class="dashboard-card-list-fade dashboard-card-list-fade--top" ng-if="$ctrl.devices.length > 0" style=""></div><!---->
+    <!----><div class="dashboard-card-list dashboard-card-list--my-devices" ng-if="$ctrl.devices.length > 0" tabindex="0" style="">
+      <!----><dashboard-card-my-devices-list-item device="device" ng-repeat="device in $ctrl.devices">
+<div class=" dashboard-card-list-item dashboard-card-list-item--my-devices">
+  <div class="dashboard-card-list-item-icon">
+    <i class="material-icons dashboard-card-list-item-icon-image computer"></i>
+  </div>
+  <div class="dashboard-card-list-item-description dashboard-card-list-item-description--my-devices">
+    <div class="dashboard-card-list-item-description dashboard-card-list-item-description--primary">
+      Windows 10 64-bit
+    </div>
+    <div class="dashboard-card-list-item-description dashboard-card-list-item-description--secondary">
+      
+    </div>
+  </div>
+</div>
+</dashboard-card-my-devices-list-item><!----><dashboard-card-my-devices-list-item device="device" ng-repeat="device in $ctrl.devices">
+<div class=" dashboard-card-list-item dashboard-card-list-item--my-devices">
+  <div class="dashboard-card-list-item-icon">
+    <i class="material-icons dashboard-card-list-item-icon-image mobile-device"></i>
+  </div>
+  <div class="dashboard-card-list-item-description dashboard-card-list-item-description--my-devices">
+    <div class="dashboard-card-list-item-description dashboard-card-list-item-description--primary">
+      Huawei Y8p
+    </div>
+    <div class="dashboard-card-list-item-description dashboard-card-list-item-description--secondary">
+      Android 10
+    </div>
+  </div>
+</div>
+</dashboard-card-my-devices-list-item><!---->
+    </div><!---->
+    <!----><div class="dashboard-card-list-fade dashboard-card-list-fade--bottom" ng-if="$ctrl.devices.length > 0" style=""></div><!---->
+    <a class="dashboard-card-footer" href="https://platform.utest.com/account/my-profile/devices">
+      + Add devices
+    </a>
+  </div>
+</div>
+</dashboard-card-my-devices>
+      <dashboard-card-requested-devices feature-flag="UTEST_REQUESTED_DEVICES">
+<!---->
+</dashboard-card-requested-devices>
+    </div>
+  </div>
+</main>
+</dashboard><!---->
+</div>
+</home></div>
+  </div>
+</div><!---->
+<landing-messages>
+<!---->
+</landing-messages>
+
+<!---->
+
+
+
+  <!-- unauthenticated-footer -->
+</ui-view>
+
+  <noscript>
+    <style>
+      body {
+        border-top:3px solid #00a8cc;
+        padding:0;
+        margin:0;
+        background: #262626 url('/assets/images/uTestLogoNav.svg') left +30px top +30px no-repeat;
+        background-size:100px;
+        font-family: sans-serif;
+        padding:200px 30px 30px;
+        color: white;
+        text-align: center;
+        font-weight: 100;
+      }
+    </style>
+    <h1>JavaScript Required</h1>
+    <p>We're sorry, but uTest doesn't work without JavaScript enabled.</p>
+  </noscript>
+
+  <!-- Google Code for Remarketing Tag -->
+  <script type="text/javascript">
+   /* <![CDATA[ */
+   var google_conversion_id = 943241068;
+   var google_custom_params = window.google_tag_params;
+   var google_remarketing_only = true;
+   /* ]]> */
+  </script>
+  <div style="display: none">
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  </div>
+  <!-- / Google Code for Remarketing Tag -->
+
+  <!-- / Wistia Video Player Scripts -->
+  <script src="https://fast.wistia.com/assets/external/E-v1.js" async=""></script>
+  <script src="//fast.wistia.com/embed/medias/o98jkwxo72.jsonp" async=""></script>
+<script src="runtime.b4f8bfe2ce2a8240df3f.js" defer=""></script><script src="polyfills-es5.cf3315d4746c4ebb50a4.js" nomodule="" defer=""></script><script src="polyfills.9ecfcacb6b3317dfded6.js" defer=""></script><script src="scripts.d08a2067bb8e989b123a.js" defer=""></script><script src="main.10554d42d133533e1665.js" defer=""></script>
+
+
+<style id="wistia_22_style" type="text/css" class="wistia_injected_style">
+@font-face {
+font-family: 'WistiaPlayerInterNumbersSemiBold';
+font-feature-settings: 'tnum' 1;
+src: url(data:application/x-font-woff;charset=utf-8;base64,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);
+}
+</style></body></html>

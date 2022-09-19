@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Como usuario , Yo quiero ingresar a la plataforma Utest para ver todos los cursos" skipped="0" tests="1" time="73.17" timestamp="2022-09-16 08:35:15"><testcase name="Ingresar a la plataforma de Utest como usuario valido"><failure message="Expected validar&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected validar&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;</failure><system-err>Expected validar&#13;
+Expected: is &lt;true&gt;&#13;
+     but: was &lt;false&gt;&#13;
+stepdefinitions.LoginStepDefinition.elVeraLaPantallaPrincipal(LoginStepDefinition.java:46)&#13;
+✽.El vera la pantalla principal(file:///C:/Users/daniel.perea/OneDrive%20-%20Valid%20Solucoes%20e%20Servicos%20em%20Meios%20de%20Pagamentos/Documentos/Automatizaciones/prueba_automatizar/src/test/resources/features/login.feature:10)&#13;
+</system-err></testcase></testsuite>
