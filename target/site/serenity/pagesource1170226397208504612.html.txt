@@ -54,7 +54,7 @@
   <meta name="og:title" property="og:title" content="uTest - The Professional Network for Testers">
   <meta name="og:description" property="og:description" content="Elevate your testing skills – READ articles, RATE tools, LEARN new skills, FIND paid projects and CHAT about tech, career &amp; trends with your peers.">
   <link rel="stylesheet" href="https://use.typekit.net/emc4mjh.css">
-<link rel="stylesheet" href="styles.5e181881f4d4489ed1af.css"><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/943241068/?random=1663335357461&amp;cv=9&amp;fst=1663335357461&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=4&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=2&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.utest.com%2F&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"><style id="inert-style">
+<link rel="stylesheet" href="styles.5e181881f4d4489ed1af.css"><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/943241068/?random=1663609016621&amp;cv=9&amp;fst=1663609016621&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=4&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=2&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.utest.com%2F&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"><style id="inert-style">
 [inert] {
   pointer-events: none;
   cursor: default;
@@ -440,7 +440,7 @@
     <!---->
   </div>
 
-  <div class="activity-list-item__time">3 days ago</div>
+  <div class="activity-list-item__time">7 days ago</div>
 </div>
 </activity-list-item><!----><!----><!----><activity-list-item current-user="$ctrl.currentUser" activity="activity" ng-repeat="activity in $ctrl.activities" ng-if="activity.type !== 'hidden'">
 <div class="activity-list-item">
@@ -480,7 +480,7 @@
     <!---->
   </div>
 
-  <div class="activity-list-item__time">15 days ago</div>
+  <div class="activity-list-item__time">19 days ago</div>
 </div>
 </activity-list-item><!----><!----><!----><activity-list-item current-user="$ctrl.currentUser" activity="activity" ng-repeat="activity in $ctrl.activities" ng-if="activity.type !== 'hidden'">
 <div class="activity-list-item">
@@ -669,28 +669,7 @@
 </dashboard-card-activity>
       </div>
 
-      <!----><dashboard-card-profile-completion ng-if="$ctrl.showCompletionCard &amp;&amp; $ctrl.currentUser.is_tester">
-<div class="col-md-4 col-sm-6">
-  <div class="dashboard-card">
-    <h2 class="dashboard-card__heading">
-      Profile Completion
-    </h2>
-    <div class="dashboard-card-profile-completion-graph">
-      <svg class="dashboard-card-profile-completion-graph__progress" ng-attr-viewbox="0 0 {{$ctrl.svgSize}} {{$ctrl.svgSize}}" viewbox="0 0 120 120">
-        <circle class="dashboard-card-profile-completion-graph__progress-meter" ng-attr-cx="{{$ctrl.svgCenter}}" ng-attr-cy="{{$ctrl.svgCenter}}" ng-attr-r="{{$ctrl.meterRadius}}" ng-attr-stroke-width="{{$ctrl.meterWidth}}" ng-attr-stroke-dasharray="{{$ctrl.meterCircumference}}" stroke-linecap="round" ng-attr-transform="rotate(90 {{$ctrl.svgCenter}} {{$ctrl.svgCenter}})" cx="60" cy="60" r="56" stroke-width="8" stroke-dasharray="263.89378290154264" transform="rotate(90 60 60)"></circle>
-        <circle class="dashboard-card-profile-completion-graph__progress-value" ng-attr-cx="{{$ctrl.svgCenter}}" ng-attr-cy="{{$ctrl.svgCenter}}" ng-attr-r="{{$ctrl.meterRadius}}" ng-attr-stroke-width="{{$ctrl.meterWidth}}" ng-attr-stroke-dasharray="{{$ctrl.meterCircumference}}" ng-attr-stroke-dashoffset="{{$ctrl.dashOffset}}" stroke="#027CC2" stroke-linecap="round" ng-attr-transform="rotate(90 {{$ctrl.svgCenter}} {{$ctrl.svgCenter}})" cx="60" cy="60" r="56" stroke-width="8" stroke-dasharray="263.89378290154264" transform="rotate(90 60 60)" stroke-dashoffset="182.0867102020644"></circle>
-      </svg>
-      <div class="dashboard-card-profile-completion-graph__user_avatar" style="background-image: url(https://prod-avatar-svc.cloud.applause.com/1059368/image);"></div>
-      <div class="dashboard-card-profile-completion-graph__percentage-badge">31%</div>
-    </div>
-    <div class="dashboard-card-profile-completion-button">
-      <a class="dashboard-link-button" href="https://platform.utest.com/account/my-profile/">
-        Complete my profile
-      </a>
-    </div>
-  </div>
-</div>
-</dashboard-card-profile-completion><!---->
+      <!---->
       <dashboard-card-my-devices>
 <div class="col-md-4 col-sm-6">
   <div class="dashboard-card">
