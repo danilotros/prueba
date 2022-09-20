@@ -7,6 +7,8 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Open;
 import ui.UtestPagina;
 
+import static ui.UtestPagina.BOTON_LOGIN;
+
 public class Abrir implements Task {
     private UtestPagina ustesPagina;
 
@@ -18,7 +20,7 @@ public class Abrir implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Open.browserOn(ustesPagina),
-                Click.on(ustesPagina.BOTON_LOGIN)
+                Click.on(BOTON_LOGIN)
         );
 
     }
